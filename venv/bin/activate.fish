@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/buigiao/hat_inventory/venv"
+set -gx VIRTUAL_ENV "/Users/anhbui/Documents/wics_workshop/open_src/hat_inventory_open_sources_mac/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

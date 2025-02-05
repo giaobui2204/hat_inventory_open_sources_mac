@@ -1,4 +1,4 @@
-#!/Users/buigiao/hat_inventory/venv/bin/python3.12
+#!/Users/anhbui/Documents/wics_workshop/open_src/hat_inventory_open_sources_mac/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
