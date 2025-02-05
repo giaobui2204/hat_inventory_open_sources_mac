@@ -17,7 +17,7 @@ def add_hat(hat: Hat):
     conn = connect_db()
     cursor = conn.cursor()
     
-    cursor.execute("INSERT INTO hats (hat_name, hat_color, size) VALUES (?, ?, ?)", 
+    cursor.execute("INSERT INTO hats (name, color, size) VALUES (?, ?, ?)", 
                    (hat.name, hat.color, hat.size))
 
     conn.commit()
