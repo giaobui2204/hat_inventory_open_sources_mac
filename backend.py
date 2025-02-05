@@ -53,7 +53,7 @@ def delete_hat(hat_id: int):
     conn = connect_db()
     cursor = conn.cursor()
 
-    cursor.execute("REMOVE FROM hats WHERE id=?", (hat_id,))
+    cursor.execute("DELETE FROM hats WHERE id=?", (hat_id,))
 
     conn.commit()
     conn.close()
